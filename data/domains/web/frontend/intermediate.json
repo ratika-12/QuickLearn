@@ -25,6 +25,10 @@
     {
         "title": "CSS Tricks",
         "link": "https://css-tricks.com/"
+    },
+    {
+      "title": "Conquering Responsive Layouts by Kevin Powell",
+      "link": "https://courses.kevinpowell.co/courses/conquering-responsive-layouts"
     }
 
 ]
