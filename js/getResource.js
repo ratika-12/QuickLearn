@@ -38,7 +38,8 @@ const domains = [
   "statistics",
   "blockchain",
   "ethical_hacking",
-  "Game_dev"
+  "Game_dev",
+  "robotics"
 ];
 let bres = "";
 let bdata = "";
@@ -72,7 +73,7 @@ for (let i = 0; i < selectCategoryBtn.length; i++) {
     advancedResourceBox.innerHTML = "";
     const value = selectCategoryBtn[i].value;
 
-    if (value == "Blockchain" || value=="ethical_hacking" || value=="Game_dev" ) {
+    if (value == "Blockchain" || value=="ethical_hacking" || value=="Game_dev" || value=="robotics" ) {
       console.log("hello");
       /* beginner*/
       bres = await fetch(`./data/domains/${value}/beginner.json`);
