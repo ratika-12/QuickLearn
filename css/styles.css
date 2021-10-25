@@ -27,10 +27,12 @@ html {
 }
 /* Navbar Section */
 #quickLearnLogoImg {
-  width: 150px;
+  width: 100%;
 }
 #navResourceBtn {
   box-sizing: border-box;
+  padding-left: 1%;
+  padding-right: 1%;
   margin-left: auto;
   min-width: 18%;
   text-align: center;
@@ -418,6 +420,47 @@ footer {
   color: white;
   background: var(--primary-title);
 }
+
+/* Dark Mode */
+.dark {
+  background-color: black;
+}
+
+.dark-para {
+  color: white;
+}
+
+.dark-list {
+  background-color: black;
+}
+
+.dark-side-bar {
+  background-color: #383838 !important;
+}
+
+.dark-list-2 {
+  background-color: white;
+}
+
+.dark-text {
+  color: white;
+}
+.dark-hr {
+  background-color: #6940d3;
+}
+
+.dark-head {
+  color: white;
+}
+
+.dark-list-3 {
+  color: white;
+}
+
+.dark-points {
+  color: #6940d3;
+}
+/*Dark Mode CSS Ends*/
 
 @media screen and (max-width: 380px) {
   #social-section li {
