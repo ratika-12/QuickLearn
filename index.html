@@ -32,14 +32,17 @@
       height: 8rem;
     }
   </style>
+
 </head>
 
 <body>
   <!--Navbar Section -->
-  <nav class="nav p-3">
-    <a class="nav-link active" aria-current="page" href="#"><img id="quickLearnLogoImg" src="./assets/images/logo.svg"
-        alt="logo_img" /></a>
+  <nav class="nav p-3 flex-nowrap">
+    <a class="nav-link active" style="display: block; max-width: 150px;" aria-current="page" href="#"><img
+        id="quickLearnLogoImg" src="./assets/images/logo.svg" alt="logo_img" /></a>
     <a class="nav-link btn" href="./resource.html" id="navResourceBtn">Resources</a>
+    <span class="btn" onclick="dark_mode()" style="display: block; margin-left: 2px; color: #6940d3;" href="#"><i
+        id="darkSwitch1" class="fas fa-moon"></i></span>
   </nav>
   <!-- Header Section -->
   <header>
@@ -209,7 +212,7 @@
             collaboration, feel
             free to reach out to us. Just drop in a mail, call us up or join us at our office for a nice coffee.<br>
             P.S.-We really make some delicious ones!</p>
-          <ul class="list-unstyled fa-ul list-group-flush">
+          <ul id="contactList" class="list-unstyled fa-ul list-group-flush">
             <li class="list-group-item"><a href="https://www.dscjss.in/" target="_blank"
                 style="text-decoration: none;"><span class="contacts fa-li"><i
                     class="fa fa-2x fa-map-marker mr-5 social-icon" aria-hidden="true"></i></span>DSC
@@ -287,6 +290,7 @@
     })
   </script>
   <script src="./js/index.js"></script>
+  <script src="https://kit.fontawesome.com/d5f8b6c1a9.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
