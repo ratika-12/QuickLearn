@@ -232,6 +232,14 @@ html {
   padding: 8px;
 }
 
+.btn-style:hover {
+  background-color: #eae3fa;
+}
+
+.btn-style:hover ~ #cube {
+  background-color: #eae3fa;
+}
+
 #sidebar {
   background: var(--primary-background);
   width: fit-content;
