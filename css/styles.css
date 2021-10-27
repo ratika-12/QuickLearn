@@ -231,7 +231,6 @@ html {
   color: var(--primary-label);
   padding: 8px;
 }
-
 #sidebar {
   background: var(--primary-background);
   width: fit-content;
