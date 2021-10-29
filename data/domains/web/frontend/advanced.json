@@ -25,6 +25,10 @@
         "link": "https://devhints.io/react"
     },
     {
+        "title": "Redux (Hooks) Crash Course",
+        "link": "https://youtu.be/9jULHSe41ls"
+    },
+    {
         "title": "Jest Testing Library",
         "link": "https://jestjs.io/"
     },
