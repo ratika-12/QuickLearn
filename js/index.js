@@ -124,7 +124,12 @@ if (Number(sessionStorage.getItem("switch"))) {
     }
 }
 
-
-
-
-
+function copy(id){
+    const text = document.getElementById(id.slice(0,id.length-1)).innerText;
+    document.getElementById(id).innerText = "Copied";
+    const elem = document.createElement('textarea');
+    elem.value = text;
+    document.body.appendChild(elem);
+    navigator.clipboard.writeText(elem.value);
+    document.body.removeChild(elem);
+}
