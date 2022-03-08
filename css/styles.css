@@ -102,10 +102,23 @@ html {
 }
 .card {
   transition: all 0.2s ease-in;
+  cursor: pointer;
 }
+/* css for image inside card */
+.card-img-top {
+  margin: 0.25rem;
+  padding: 0.25rem;
+  border-radius: 0.2rem;
+}
+/* card hover effect */
 .card:hover {
   transform: scale(1.05);
-  box-shadow: 0px 0px 5px #f0eee4;
+  box-shadow: 0px 0px 5px #6940d3;
+}
+/* hover effect for image when card is hover */
+.card:hover .card-img-top {
+  border: 2px solid #6940d3;
+  border-radius: 0.8rem;
 }
 .card-body {
   min-height: 150px;
