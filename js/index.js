@@ -60,7 +60,6 @@ function dark_mode() {
         }
     }
     else {
-        icon2.classList.toggle("fa-sun");
         Body[0].classList.toggle("dark");
         sidebar.classList.toggle("dark-side-bar");
         for (i = 0; i < List2.length; i++) {
