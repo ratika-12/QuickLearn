@@ -20,10 +20,22 @@ body {
   z-index: -10;
   transition: 2s;
   background-color: var(--primary-background);
+  
 }
+
 
 html {
   scroll-behavior: smooth;
+}
+
+/* styling under feature explore section */
+a{
+  text-decoration: none;
+  color:inherit;
+}
+
+a:hover{
+  color:inherit;
 }
 /* Navbar Section */
 #quickLearnLogoImg {
@@ -478,4 +490,8 @@ footer {
   #social-section li {
     width: 100%;
   }
+}
+
+@media screen and (max-width:1200px) {
+
 }
