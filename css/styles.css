@@ -492,6 +492,9 @@ footer {
   }
 }
 
+/* Fixing text overflow in cybersecurity */
 @media screen and (max-width:1200px) {
-
+  .card-title h5{
+    font-size: 1.5rem;
+  }
 }
