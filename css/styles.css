@@ -20,10 +20,22 @@ body {
   z-index: -10;
   transition: 2s;
   background-color: var(--primary-background);
+  
 }
+
 
 html {
   scroll-behavior: smooth;
+}
+
+/* styling under feature explore section */
+a{
+  text-decoration: none;
+  color:inherit;
+}
+
+a:hover{
+  color:inherit;
 }
 /* Navbar Section */
 #quickLearnLogoImg {
@@ -511,5 +523,12 @@ footer {
 @media screen and (max-width: 380px) {
   #social-section li {
     width: 100%;
+  }
+}
+
+/* Fixing text overflow in cybersecurity */
+@media screen and (max-width:1200px) {
+  .card-title h5{
+    font-size: 1.5rem;
   }
 }
